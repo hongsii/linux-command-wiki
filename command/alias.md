@@ -9,7 +9,7 @@
 
 alias 설정
 
-[![alias](https://asciinema.org/a/209211.png)](https://asciinema.org/a/209211)
+[![alias](https://asciinema.org/a/209553.png)](https://asciinema.org/a/209553)
 
 ``` shell
 ❯ alias wiki='cd ~/Programming/linux-command-wiki/alias'
