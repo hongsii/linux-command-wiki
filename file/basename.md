@@ -20,4 +20,6 @@ test.sh
 test
 ```
 
-[![basename](https://asciinema.org/a/209228.png)](https://asciinema.org/a/209228)
+[![basename](https://asciinema.org/a/209571.png)](https://asciinema.org/a/209571)
+
+
