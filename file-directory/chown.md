@@ -13,26 +13,53 @@
 * -f : 파일의 소유자/그룹 변경 실패시 오류를 출력하지 않음 
 * -v : 수정된 내용을 상세히 표시
 
+#### 현재 파일/디렉토리의 소유자, 그룹 조회
+
 ``` bash
 # 현재 test.txt의 파일의 소유자는 hong 그룹은 staff
 ❯ ls -l
 ----------  1 hong  staff   0 11 12 22:42 test.txt
+```
+
+#### 소유자 변경
+
+``` bash
+❯ ls -l
+----------  1 hong  admin 0 11 12 22:42 test.txt
 
 # test.txt 파일의 소유자를 user2로 변경
 ❯ chown user2 test.txt
 ❯ ls -l
+----------  1 user2 admin 0 11 12 22:42 test.txt
+```
+
+#### 그룹 변경
+
+``` bash
+❯ ls -l
+----------  1 user2 admin 0 11 12 22:42 test.txt
+
+# test.txt 파일의 그룹을 staff로  변경
+❯ chown :staff test.txt
+❯ ls -l
 ----------  1 user2 staff   0 11 12 22:42 test.txt
+```
+
+#### 소유자와 그룹을 함께 변경
+
+``` bash
+❯ ls -l
+----------  1 user2 staff 0 11 12 22:42 test.txt
 
 # test.txt 파일의 소유자를 user3, 그룹을 admin으로  변경
 ❯ chown user3:admin test.txt
 ❯ ls -l
 ----------  1 user3 admin   0 11 12 22:42 test.txt
+```
 
-# test.txt 파일의 그룹을 staff로  변경
-❯ chown :staff test.txt
-❯ ls -l
-----------  1 user3 admin   0 11 12 22:42 test.txt
+#### 여러개의 파일 한번에 변경
 
+``` bash
 # test.txt, test2.txt 파일의 소유자를 hong으로  변경
 ❯ chown hong test.txt test2.txt
 ❯ ls -l
