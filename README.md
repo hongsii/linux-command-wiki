@@ -12,11 +12,10 @@
 
 ### 파일 & 디렉토리 (file-directory)
 
-* [basename](https://github.com/hongsii/linux-command-wiki/blob/master/file/basename.md) - 파일명 추출
-* [cat](https://github.com/hongsii/linux-command-wiki/blob/master/file/cat.md) - 파일 내용 출력
-* [cd](https://github.com/hongsii/linux-command-wiki/blob/master/directory/cd.md) - 디렉토리 이동
-
-
+* [basename](https://github.com/hongsii/linux-command-wiki/blob/master/file-directory/basename.md) - 파일명 추출
+* [cat](https://github.com/hongsii/linux-command-wiki/blob/master/file-directory/cat.md) - 파일 내용 출력
+* [cd](https://github.com/hongsii/linux-command-wiki/blob/master/file-directory/cd.md) - 디렉토리 이동
+* [chown](https://github.com/hongsii/linux-command-wiki/blob/master/file-directory/chown.md) - 파일/디렉토리의 소유자/그룹 변경
 
 ### 권한 (authorization)
 
