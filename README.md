@@ -16,6 +16,7 @@
 * [cat](https://github.com/hongsii/linux-command-wiki/blob/master/file-directory/cat.md) - 파일 내용 출력
 * [cd](https://github.com/hongsii/linux-command-wiki/blob/master/file-directory/cd.md) - 디렉토리 이동
 * [chown](https://github.com/hongsii/linux-command-wiki/blob/master/file-directory/chown.md) - 파일/디렉토리의 소유자/그룹 변경
+* [which](https://github.com/hongsii/linux-command-wiki/blob/master/file-directory/which.md) - 명령어의 실행 파일 경로 출력
 
 ### 권한 (authorization)
 
