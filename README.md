@@ -20,4 +20,3 @@
 * [cp](https://github.com/hongsii/linux-command-wiki/blob/master/file-directory/cp.md) - 파일/디렉토리 복사
 * [find](https://github.com/hongsii/linux-command-wiki/blob/master/file-directory/find.md) - 파일 검색
 * [which](https://github.com/hongsii/linux-command-wiki/blob/master/file-directory/which.md) - 명령어의 실행 파일 경로 출력
-* [which](https://github.com/hongsii/linux-command-wiki/blob/master/file-directory/which.md) - 명령어의 실행 파일 경로 출력
