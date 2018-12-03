@@ -2,12 +2,13 @@
 
 자주 사용하는 명령어를 별칭으로 설정해 간단하게 실행할 수 있게 해주는 명령어
 
-> alias 별칭[=명령어]
-
-
 ## 사용법
 
-alias 설정
+``` shell
+alias 별칭[=명령어]
+```
+
+#### alias 설정
 
 [![alias](https://asciinema.org/a/209553.png)](https://asciinema.org/a/209553)
 
@@ -15,7 +16,7 @@ alias 설정
 ❯ alias wiki='cd ~/Programming/linux-command-wiki/alias'
 ```
 
-설정된 alias 확인
+#### 설정한 alias 조회
 
 ``` shell
 ❯ alias wiki
@@ -28,6 +29,8 @@ wiki=/Users/hong/Programming/linux-command-wiki/alias
 ❯ wiki
 ```
 
+#### alias 조회
+
 현재 시스템에 설정된 모든 alias를 조회 (기본적으로 시스템에서 설정된 alias도 존재함)
 
 ``` shell
@@ -38,11 +41,13 @@ md='mkdir -p'
 wiki=/Users/hong/Programming/linux-command-wiki/alias
 ```
 
-alias를 해제하고 싶다면 `unalias` 사용
+#### alias 해제
 
 ``` shell
 unalias wiki
 ```
+
+#### alias 영구 적용
 
 alias 명령어로 별칭을 설정하면 **현재 사용 중인 shell만 적용되기 때문에 shell이 종료되면 alias도 해제**됨  
 alias를 영구적으로 설정하고 싶다면 아래와 같이 적용
