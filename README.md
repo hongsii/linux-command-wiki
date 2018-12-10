@@ -20,4 +20,5 @@
 * [cp](https://github.com/hongsii/linux-command-wiki/blob/master/file-directory/cp.md) - 파일/디렉토리 복사
 * [find](https://github.com/hongsii/linux-command-wiki/blob/master/file-directory/find.md) - 파일 검색
 * [head](https://github.com/hongsii/linux-command-wiki/blob/master/file-directory/head.md) - 파일의 첫 행부터 지정된 행 출력
+* [tail](https://github.com/hongsii/linux-command-wiki/blob/master/file-directory/tail.md) - 파일의 마지막 행부터 지정된 행 출력
 * [which](https://github.com/hongsii/linux-command-wiki/blob/master/file-directory/which.md) - 명령어의 실행 파일 경로 출력
