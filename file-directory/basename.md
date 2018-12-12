@@ -21,7 +21,3 @@ test.sh
 ❯ basename ~/test.sh .sh
 test
 ```
-
-[![basename](https://asciinema.org/a/209571.png)](https://asciinema.org/a/209571)
-
-
