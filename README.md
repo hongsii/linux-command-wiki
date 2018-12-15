@@ -22,3 +22,8 @@
 * [head](https://github.com/hongsii/linux-command-wiki/blob/master/file-directory/head.md) - 파일의 첫 행부터 지정된 행 출력
 * [tail](https://github.com/hongsii/linux-command-wiki/blob/master/file-directory/tail.md) - 파일의 마지막 행부터 지정된 행 출력
 * [which](https://github.com/hongsii/linux-command-wiki/blob/master/file-directory/which.md) - 명령어의 실행 파일 경로 출력
+
+### 프로세스 (process)
+
+* [pgrep](https://github.com/hongsii/linux-command-wiki/blob/master/process/pgrep.md) - 패턴에 일치하는 프로세스의 PID 출력
+
