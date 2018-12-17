@@ -50,3 +50,13 @@ cd [디렉토리 경로]
 ❯ pwd
 /Users/hong/Programming/linux-command-wiki
 ```
+
+#### 디렉토리 생성 후, 이동
+
+디렉토리 생성 명령어(mkdir)과 조합하면 하나의 행에서 폴더 생성 후, 이동까지 가능
+
+``` shell
+# $_는 이전 명령어의 마지막 파라미터를 반환
+❯ mkdir my-test-dir && cd $_
+```
+
