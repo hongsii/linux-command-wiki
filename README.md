@@ -9,6 +9,7 @@
 ### 명령 (command)
 
 * [alias](https://github.com/hongsii/linux-command-wiki/blob/master/command/alias.md) - 명령어 별칭 설정
+* [special-characters](https://github.com/hongsii/linux-command-wiki/blob/master/command/special-characters.md) - 명령어에 사용할 수 있는 특수문자
 
 ### 파일 & 디렉토리 (file-directory)
 
