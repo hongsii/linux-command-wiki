@@ -5,6 +5,7 @@
 * 물음표 ?
 * 별표 *
 * 파이프 |
+* 대괄호 []
 
 ## 느낌표 !
 
@@ -161,4 +162,18 @@ testabc:
 ``` shell
 # ps 명령어의 표준 출력을 grep 명령어의 표준 입력으로 보내 "java" 문자가 들어간 프로세스를 검색
 ❯ ps -ef | grep java
+```
+
+## 대문자 []
+
+{}와 비슷한 기능으로 집합을 구성하는 특수문자
+
+``` shell
+# 접두사가 test이며, A부터 C까지 일치하는 파일 모두 출력
+❯ ls test[A-C]
+testA testB testC
+
+# 접두사가 test인 A 또는 C와 일치하는 파일 모두 출력
+❯ ls test[AC]
+testA testC
 ```
