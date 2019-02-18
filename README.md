@@ -22,6 +22,7 @@
 * [cp](https://github.com/hongsii/linux-command-wiki/blob/master/file-directory/cp.md) - 파일/디렉토리 복사
 * [find](https://github.com/hongsii/linux-command-wiki/blob/master/file-directory/find.md) - 파일 검색
 * [head](https://github.com/hongsii/linux-command-wiki/blob/master/file-directory/head.md) - 파일의 첫 행부터 지정된 행 출력
+* [pwd](https://github.com/hongsii/linux-command-wiki/blob/master/file-directory/pwd.md) - 현재 디렉토리의 경로 출력
 * [tail](https://github.com/hongsii/linux-command-wiki/blob/master/file-directory/tail.md) - 파일의 마지막 행부터 지정된 행 출력
 * [touch](https://github.com/hongsii/linux-command-wiki/blob/master/file-directory/touch.md) - 파일을 생성하거나 날짜를 변경하는 명령어
 * [wc](https://github.com/hongsii/linux-command-wiki/blob/master/file-directory/wc.md) - 파일의 행/단어/바이트 수 출력
