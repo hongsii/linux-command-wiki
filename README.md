@@ -36,3 +36,5 @@
 ### 검색 (search)
 
 * [grep](https://github.com/hongsii/linux-command-wiki/blob/master/search/grep.md) - 파일에서 패턴과 일치하는 내용을 출력
+* [zgrep](https://github.com/hongsii/linux-command-wiki/blob/master/search/zgrep.md) - 압축된 파일에서 패턴과 일치하는 내용을 출력
+
