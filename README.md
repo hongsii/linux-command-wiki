@@ -32,3 +32,7 @@
 
 * [pgrep](https://github.com/hongsii/linux-command-wiki/blob/master/process/pgrep.md) - 패턴에 일치하는 프로세스의 PID 출력
 
+
+### 검색 (search)
+
+* [grep](https://github.com/hongsii/linux-command-wiki/blob/master/search/grep.md) - 파일에서 패턴과 일치하는 내용을 출력
