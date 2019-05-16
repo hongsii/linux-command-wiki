@@ -31,6 +31,7 @@
 
 ### 프로세스 (process)
 
+* [kill](https://github.com/hongsii/linux-command-wiki/blob/master/process/kill.md) - 프로세스에게 신호 전송
 * [pgrep](https://github.com/hongsii/linux-command-wiki/blob/master/process/pgrep.md) - 패턴에 일치하는 프로세스의 PID 출력
 
 
