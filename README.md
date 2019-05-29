@@ -10,6 +10,7 @@
 
 * [alias](https://github.com/hongsii/linux-command-wiki/blob/master/command/alias.md) - 명령어 별칭 설정
 * [man](https://github.com/hongsii/linux-command-wiki/blob/master/command/man.md) - 명령어의 매뉴얼 출력
+* [sort](https://github.com/hongsii/linux-command-wiki/blob/master/command/sort.md) - 정렬
 * [special-characters](https://github.com/hongsii/linux-command-wiki/blob/master/command/special-characters.md) - 명령어에 사용할 수 있는 특수문자
 
 ### 파일 & 디렉토리 (file-directory)
