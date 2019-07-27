@@ -42,3 +42,7 @@
 * [grep](https://github.com/hongsii/linux-command-wiki/blob/master/search/grep.md) - 파일에서 패턴과 일치하는 내용을 출력
 * [zgrep](https://github.com/hongsii/linux-command-wiki/blob/master/search/zgrep.md) - 압축된 파일에서 패턴과 일치하는 내용을 출력
 
+
+### Tool (tool)
+
+* [curl](https://github.com/hongsii/linux-command-wiki/blob/master/tool/curl.md) - URL로 서버와 통신

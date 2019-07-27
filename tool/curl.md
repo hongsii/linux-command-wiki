@@ -2,9 +2,6 @@
 
 서버로 데이터를 보내거나 받을 수 있는 명령
 
-* 지원하는 프로토콜 : DICT, FILE, FTP, FTPS, GOPHER, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, POP3, POP3S, RTMP, RTSP, SCP, SFTP, SMB, SMBS, SMTP, SMTPS, TELNET and TFTP
-
-
 ## 옵션
 
 | 옵션명 | 설명        |
@@ -14,7 +11,7 @@
 | -d     | Request Body 설정 |
 | -i     | Response Header 출력 |
 
-## HTTP
+## HTTP 요청
 
 ### 다운로드
 
@@ -30,3 +27,24 @@ curl https://www.google.com
 curl -o curl-desc.md https://raw.githubusercontent.com/hongsii/linux-command-wiki/master/tool/curl.md
 ```
 
+### 요청 보내기
+
+GET 요청 보내기
+
+``` shell
+curl -X GET https://www.google.com
+curl -X GET https://www.google.com/search?q=google
+```
+
+POST 요청 보내기
+
+* `-H` : 요청 헤더를 설정
+* `-d` : 바디로 보낼 데이터를 설정
+* 여러 줄로 사용할 경우 `\` 를 마지막에 붙여줘야 한다.
+
+``` shell
+curl -X POST 'https://www.test-url.co.kr' \
+    -H 'AUthorization: test-token' \
+    -d id=1 \
+    -d type=test
+```
