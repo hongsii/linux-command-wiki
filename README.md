@@ -46,3 +46,7 @@
 ### Tool (tool)
 
 * [curl](https://github.com/hongsii/linux-command-wiki/blob/master/tool/curl.md) - URL로 서버와 통신
+
+### 프로토콜 (protocol)
+
+* [telnet](https://github.com/hongsii/linux-command-wiki/blob/master/protocol/telnet.md) - 원격 서버 접속
