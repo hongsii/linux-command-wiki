@@ -13,3 +13,20 @@
 | -c | 파일에서 검색된 라인수 출력 |
 | -n | 파일에서 검색된 라인넘버 출력 |
 | -v | 패턴과 일치하지 않는 라인만 출력 |
+
+------
+
+``` shell
+# search.txt
+Hello, World
+Hello
+World
+```
+
+search.txt 파일에서 `Hello` 가 포함된 라인 중 `World` 가 없는 라인만 출력
+
+``` shell
+> grep "Hello" | grep -v "World"
+
+Hello
+```
