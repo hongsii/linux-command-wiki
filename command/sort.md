@@ -16,6 +16,7 @@ sort [옵션] [file...]
 | -R, --random-sort, --sort=random | 랜덤으로 정렬 |
 | -k field1.. --key=field... | 필드 포지션을 기준으로 정렬 |
 | -t char, --field-separator=char | 필드 구분자 설정 |
+| -n | 숫자 정렬 |
 
 
 ### 파일 정렬
