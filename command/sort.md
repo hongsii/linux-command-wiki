@@ -16,7 +16,9 @@ sort [옵션] [file...]
 | -R, --random-sort, --sort=random | 랜덤으로 정렬 |
 | -k field1.. --key=field... | 필드 포지션을 기준으로 정렬 |
 | -t char, --field-separator=char | 필드 구분자 설정 |
-| -n | 숫자 정렬 |
+| -n                         | 숫자 정렬 |
+| -k number                  | 정렬 필드 선택 (1부터 시작) |
+| -o file, --output file     | 지정한 파일에 저장 |
 
 
 ### 파일 정렬
@@ -33,4 +35,17 @@ $ cat Number.txt | sort
 ``` shell
 # 파일 크기 순으로 정렬하기 (파일 크기가 공백을 기준으로 5번쨰 필드에 위치)
 $ ls -al | sort -k5
+```
+
+``` bash
+$ cat sort.txt
+a,b,c
+b,a,f
+c,c,d
+
+# 구분자 ',' 로 나눈 후, 2번째 필드값 기준 정렬
+$ sort -t ',' -k 2 sort.txt
+b,a,f
+a,b,c
+c,c,d
 ```
